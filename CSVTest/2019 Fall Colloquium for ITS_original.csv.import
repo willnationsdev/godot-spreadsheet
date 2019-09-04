@@ -1,0 +1,13 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+
+[deps]
+
+source_file="res://2019 Fall Colloquium for ITS_original.csv"
+[params]
+
+interpret_for_translation=false
+compress=true
+delimiter=0

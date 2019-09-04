@@ -1,0 +1,38 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Resource",
+"class": "Spreadsheet",
+"language": "GDScript",
+"path": "res://addons/godot-spreadsheet/spreadsheet.gd"
+}, {
+"base": "Reference",
+"class": "Utility",
+"language": "GDScript",
+"path": "res://test.gd"
+} ]
+_global_script_class_icons={
+"Spreadsheet": "",
+"Utility": ""
+}
+
+[application]
+
+config/name="CSVTest"
+config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "godot-plugin-refresher", "godot-spreadsheet" )
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
